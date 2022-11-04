@@ -1,0 +1,140 @@
+
+html body{
+    padding: 0;
+    margin: 0;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+    height: 2px;
+}
+::-webkit-scrollbar-track-piece  {
+    background-color: #bad5ff;
+}
+::-webkit-scrollbar-thumb:vertical {
+    height: 30px;
+    background-color: #e60012;
+}
+
+header{
+    z-index: 999;
+    padding: 0.4rem;
+    display: flex;
+    background: #e60012;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    margin: 0px 0px 0rem 0rem;
+    width: 100%;
+}
+
+a{
+    color:white;
+    text-decoration: none;
+}
+.fas {
+    display: flex;
+    font-size: 30px;
+    color: white;
+}
+.fab {
+    display: flex;
+    font-size: 30px;
+    color: white;
+}
+#nit{
+    margin-left: 2rem;
+    color: white;
+    border: 3px solid white;
+    padding: 1px;
+    border-radius: 5ch;
+    text-align: center;
+    font-size: 19px;
+    width: 90px;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+    margin: 0px;
+    padding: 0px;
+}
+
+nav ul li a:hover{
+    text-decoration: underline;
+}
+
+nav ul li{
+    display: flex;
+    font-size: 11px;
+    flex-direction: column;
+    align-items: center;
+}
+/* ---------------------------------------------------------------- */
+.three{
+    background: #e60012;
+    max-height: 100rem;
+    height: 53.4rem;
+    width: 6rem;
+    margin: 0;
+}
+
+.three ul{
+    list-style: none;
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+}
+.three-box {
+    position: fixed;
+    background: rgb(230, 0, 18);
+    max-height: 100rem;
+    height: 58.4rem;
+    width: 6rem;
+    margin: 0px;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: stretch;
+    box-shadow: rgb(173 173 173) 9px 13px 20px;
+    justify-content: center;
+}
+.three-box div a{
+    margin-top: 1rem;
+    padding: 1px;
+}
+.three-box div{
+    padding: 1rem;
+    border: 0.5px solid black;
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+    align-items: center;
+}
+.three-box div a{
+    font-size: 12px;
+    text-align: center;
+}
+.three-box h1{
+    color:white;
+}
+.three-box div:hover{
+    background: #bb0513;
+    transition: 0.3s;
+}
+
+.two{
+    position: absolute;
+}
+
+section{
+    padding-top: -1rem;
+}
+section img{
+    margin: 6.5rem;
+    margin-top: -17rem;
+
+}
+.content-img{
+    box-shadow: 2px 2px 2px black;
+    display: flex;
+}
